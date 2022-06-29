@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-image: url(/gif/open-estatue-oscar.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 30vh;
+    background-image: url(../img/gold-gradient.jpg);
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+
+}
+h2{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 5vh;
+    background-image: url(../img/gold-gradient2.jpg);
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+}
+.s-star{
+    text-align: center;
+}
+.star{
+    width: 150px;
+}
+
+
+@media (max-width:450px){
+        body{
+    background-color: black;
+    background-image: url(/gif/open-estatue-oscar.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        h1{
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 30vh;
+        background-image: url(../img/gold-gradient.jpg);
+        -webkit-background-clip: text;
+        -ms-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: cover;
+        }
+        h2{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 5vh;
+        background-image: url(../img/gold-gradient2.jpg);
+        -webkit-background-clip: text;
+        -ms-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: cover;
+        }
+}
