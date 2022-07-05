@@ -9,9 +9,17 @@
 /*Raleway (Descriptions)*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
-
-
-
+/*----------Variable Color----------
+-------------------------------------*/
+:root{
+    --main-color: yellow;
+    --y1-color: #ecd18d;
+    --y2-color: #fce9af;
+    --ydark-color: rgb(255, 157, 0); 
+    --yred-color: #e50914;
+    --dark-color: #141414;
+    --white-color: azure;
+}
 /*----------Page Configuration----------
 -------------------------------------------*/
 *{
@@ -20,7 +28,54 @@
     box-sizing: border-box;
 }
 body{
-    background: radial-gradient(#000, #505775);
+    background: #000;
     margin: 0;
     padding: 0;
+}
+/*----------Logo Navbar----------
+------------------------------------*/
+header .container-nav img{
+    width: 250px;
+    height: 120px;
+    margin-left: 10px;
+    display: flex;
+}
+/*----------Links Navbar----------
+------------------------------------*/
+header .container-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header nav a{
+    background-image: url(../img/gold-gradient.jpg);
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 1em;
+    margin-right: 10px;
+    transition: 1s;
+}
+header nav a:hover{
+    background-image: url(../img/gold-gradient2.jpg);
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 1em;
+    text-decoration: underline rgb(231, 173, 26);
+    margin-right: 10px;
 }
