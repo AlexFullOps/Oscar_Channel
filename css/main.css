@@ -1,15 +1,26 @@
+/*----------General----------
+-----------------------------*/
+/*Lato for Titles(h1)*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/*Gantari (h2 - h3)*/
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@300&display=swap');
+/*Montserrat (Text)*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/*Raleway (Descriptions)*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 
 
 
+/*----------Page Configuration----------
+-------------------------------------------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background: radial-gradient(#000, #06070b);
+    background: radial-gradient(#000, #505775);
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
